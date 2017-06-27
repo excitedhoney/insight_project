@@ -1,0 +1,170 @@
+body {margin:0;
+background: rgba(6, 41, 61, 1);
+}
+
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 90, 120, 0.7);
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+	font-family: 'Nunito', sans-serif;
+    padding: 16px 20px;
+    text-decoration: none;
+	margin-bottom: 0px
+	
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.header {text-align: center;
+	font-family: 'Nunito', sans-serif;
+	color: White;
+	font-size: 20px;
+	pointer-events:none;
+	}
+	
+.content{
+	
+	margin:0 auto;
+	width:1500px;
+}
+
+.friends {text-align: left;
+	font-family: 'Nunito', sans-serif;
+	color: White;
+	font-size: 20px;
+	pointer-events:none;
+	}
+
+	
+#user_timeline{
+	display:block;
+	background-color: rgba(0, 90, 120, 0.7);
+	width:250px;
+	height:450px;
+	float:left;
+	border-right: 1px solid black;
+	font-family: 'Nunito', sans-serif;
+	color: White;
+	padding:0px;
+	margin-top:25px;
+	margin-left:10px;
+}
+
+
+
+#user_details	{
+	padding:25px;
+	margin-bottom:10px;
+}
+
+#user_details img{
+	width:200px;
+	height:200px;
+border:2px solid black; 
+border-radius:20px;
+background-image: url(http://d1znuvnwgfslq5.cloudfront.net/assets/default_avatar-d03d237e856098df8d791f6b6c4a0393.png?1480118401326);
+}
+
+#content_timeline{
+	display:block;
+	float:left;
+	width:1000px;
+	padding:20px;
+	height:300px;
+	margin-left:100px;
+	}
+
+#content_timeline{
+font-family: 'Nunito', sans-serif;
+	color: White;
+	font-size: 10px;
+}
+
+#f input{
+	padding:8px;
+	border:1px solid black;
+	border-radius:5px;
+	font-weight:bolder;
+}
+
+#f textarea{
+	padding:8px;
+	border:1px solid black;
+	border-radius:5px;
+	font-weight:bolder;
+}
+
+
+#posts {
+	
+	float:center;
+	width:500px;
+	}
+
+.post-container{margin-bottom:10px;
+background-color: rgba(0, 90, 120, 0.7);
+border:1px solid black;
+	border-radius:5px;
+	font-weight:bolder;
+	font-family: 'Nunito', sans-serif;
+	color: White;
+	padding:10px;
+	
+		}
+
+		
+		
+		
+#post-image img{
+	float:left;
+	margin:0 auto;
+	width:30px;
+	height:30px;
+border:1px solid black; 
+border-radius:5px;
+background-image: url(http://d1znuvnwgfslq5.cloudfront.net/assets/default_avatar-d03d237e856098df8d791f6b6c4a0393.png?1480118401326);}
+
+}
+
+#title p{
+	padding:70px;
+	float:center;
+	width:100px;
+	
+}
+
+.friend-container{
+	width:500px;
+	margin-bottom:10px;
+background-color: rgba(0, 90, 120, 0.7);
+border:1px solid black;
+	border-radius:5px;
+	font-weight:bolder;
+	font-family: 'Nunito', sans-serif;
+	color: White;
+	padding:10px;
+	
+		}
+
+#user_details img {
+	float:center;
+}
+
