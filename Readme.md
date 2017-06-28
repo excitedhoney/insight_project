@@ -29,7 +29,7 @@ The transactions and user settings are stored in a Postgres DB.
 The information for each user is then displayed in the front end using flask
 
 
-![](images/pipeline.jpeg)
+![](images/pipeline.jpg)
 
 
 
