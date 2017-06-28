@@ -57,7 +57,7 @@ def get_trades():
 		response_list.append(val)
 		
 	#json_data = [{"Name":x[0],"Buy" : x[1],"Sell" : x[2], "Funds" : x[3]} for x in res]
-	json_data = [{"Price":x[0],"Type": x[1],"Stock":x[2],"Qty":x[3],"Time":x[4]} for x in response_list]
+	json_data = [{"Price":x[0],"Type": x[1],"Stock":x[2],"Qty":x[3],"Time":str(x[4])} for x in response_list]
 	return json_data
 
 
@@ -77,7 +77,7 @@ def get_info():
 def connect_master_db():
 
 	try:
-		conn = psycopg2.connect("dbname='transactions' user = 'postgres' host = 'transactions-trades.ca4vkhzfvza0.us-east-1.rds.amazonaws.com' password = 'kakarala'") 
+		conn = psycopg2.connect("dbname='transactions' user = 'postgres' host = 'hostname' password = 'kakarala'") 
 		return conn
 	except:
 		print "Not Connected"
@@ -85,7 +85,7 @@ def connect_master_db():
 def connect_slave_db():
 
         try:
-                conn = psycopg2.connect("dbname='transactions' user = 'postgres' host = 'replica1.ca4vkhzfvza0.us-east-1.rds.amazonaws.com' password = 'kakarala'")
+                conn = psycopg2.connect("dbname='transactions' user = 'postgres' host = 'hostname' password = 'kakarala'")
                 return conn
         except:
                 print "Not Connected"	
